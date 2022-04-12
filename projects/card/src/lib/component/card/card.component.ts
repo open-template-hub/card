@@ -2,7 +2,7 @@ import { Component, Input, TemplateRef } from '@angular/core';
 import { Ribbon } from '../../model/ribbon/ribbon.model';
 
 @Component( {
-  selector: 'app-card',
+  selector: 'oth-card',
   templateUrl: './card.component.html',
   styleUrls: [ './card.component.scss' ]
 } )
