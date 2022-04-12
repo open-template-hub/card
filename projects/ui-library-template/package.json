@@ -1,0 +1,27 @@
+{
+  "name": "@open-template-hub/ui-library-template",
+  "description": "This library is a template to generate new angular component libraries.",
+  "version": "4.0.2",
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/common": "^13.3.0",
+    "@angular/core": "^13.3.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "git repository": "https://github.com/open-template-hub/ui-library-template",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/open-template-hub/ui-library-template.git"
+  },
+  "keywords": [
+    "common",
+    "ui",
+    "template",
+    "open template hub",
+    "open template hub library",
+    "angular",
+    "angular component"
+  ]
+}
