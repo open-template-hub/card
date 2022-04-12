@@ -39,7 +39,7 @@ jobs:
       - name: NPM Build
         run: npm run-script build
       - name: NPM Publish
-        working-directory: ./dist/ui-library-template
+        working-directory: ./dist/card
         run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
@@ -67,7 +67,7 @@ jobs:
       - name: NPM Build
         run: npm run-script build
       - name: NPM Publish
-        working-directory: ./dist/ui-library-template
+        working-directory: ./dist/card
         run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.MASTER_BRANCH_ACCESS_TOKEN}}

@@ -5,21 +5,21 @@
   "projects": {
     "template": {
       "projectType": "library",
-      "root": "projects/ui-library-template",
-      "sourceRoot": "projects/ui-library-template/src",
+      "root": "projects/card",
+      "sourceRoot": "projects/card/src",
       "prefix": "oth",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "project": "projects/ui-library-template/ng-package.json"
+            "project": "projects/card/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/ui-library-template/tsconfig.lib.prod.json"
+              "tsConfig": "projects/card/tsconfig.lib.prod.json"
             },
             "development": {
-              "tsConfig": "projects/ui-library-template/tsconfig.lib.json"
+              "tsConfig": "projects/card/tsconfig.lib.json"
             }
           },
           "defaultConfiguration": "production"
@@ -27,9 +27,9 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/ui-library-template/src/test.ts",
-            "tsConfig": "projects/ui-library-template/tsconfig.spec.json",
-            "karmaConfig": "projects/ui-library-template/karma.conf.js"
+            "main": "projects/card/src/test.ts",
+            "tsConfig": "projects/card/tsconfig.spec.json",
+            "karmaConfig": "projects/card/karma.conf.js"
           }
         }
       }
