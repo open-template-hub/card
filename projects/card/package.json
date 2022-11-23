@@ -1,7 +1,7 @@
 {
   "name": "@open-template-hub/card",
   "description": "This library contains card ui component for UI Templates on Open Template Hub",
-  "version": "4.1.0",
+  "version": "4.1.1",
   "license": "MIT",
   "peerDependencies": {
     "@angular/common": ">=14.0.1",
