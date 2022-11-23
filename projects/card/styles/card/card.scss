@@ -121,6 +121,34 @@
     background-color: transparent;
     box-shadow: initial;
   }
+
+  &.bordered-card {
+    box-shadow: initial;
+    border: 1px solid var(--contrast);
+  }
+
+  &.soft-shadow-card {
+    box-shadow: 0 5px 30px -20px var(--shadow);
+  }
+
+  &.gradient-card {
+    box-shadow: initial;
+    
+    border-image: linear-gradient(90deg, transparent 0%, var(--contrast) 15%, var(--contrast) 85%, transparent 100%);
+    border-image-slice: 1;
+
+    border-top: {
+      style: solid;
+      width: 1px;
+    }
+
+    border-bottom: {
+      style: solid;
+      width: 1px;
+    }
+
+    background-image: linear-gradient(90deg, var(--background-color) 0%, var(--card) 20%, var(--card) 80%, var(--background-color) 100%);
+  }
 }
 
 .cards-wrapper, .flexible-cards-wrapper, .full-width-cards-wrapper {
