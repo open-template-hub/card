@@ -62,21 +62,6 @@
   border-color: var(--darker-contrast);
 }
 
-@mixin default-bottom-wrapper {
-  @include util.default-border-radius;
-  @include util.default-height-bottom-line;
-
-  position: absolute;
-  z-index: 9;
-  bottom: 0;
-  right: 0;
-
-  background-color: var(--darker-contrast);
-
-  overflow: hidden;
-  width: 100%;
-}
-
 .card {
   @include util.flex-layout-column;
   @include default-card;
@@ -111,10 +96,6 @@
   & .footer {
     @include default-footer;
     @include default-footer-border-color;
-  }
-
-  & .bottom-wrapper {
-    @include default-bottom-wrapper;
   }
 
   &.transparent-card {
