@@ -20,6 +20,7 @@ export class CardComponent {
   @Input() footer?: string;
 
   @Input() ribbon?: Ribbon;
+  @Input() overflowHidden?: boolean;
 
   constructor() {
     // Intentionally blank

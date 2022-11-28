@@ -1,4 +1,4 @@
-<div [class]="cardClass" class="card">
+<div [class]="cardClass" class="card" [style.overflow]="overflowHidden === true ? 'hidden' : ''">
   <span *ngIf="ribbon" [attr.data-ribbon]="ribbon.text" [class]="ribbon.theme + '-theme'" class="ribbon">
     <!-- Ribbon of the card -->
   </span>
