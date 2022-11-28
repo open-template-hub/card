@@ -130,6 +130,10 @@
 
     background-image: linear-gradient(90deg, var(--background-color) 0%, var(--card) 20%, var(--card) 80%, var(--background-color) 100%);
   }
+
+  &.overflow-hidden-card {
+    overflow: hidden;
+  }
 }
 
 .cards-wrapper, .flexible-cards-wrapper, .full-width-cards-wrapper {
