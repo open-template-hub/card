@@ -112,7 +112,7 @@
 
   &.gradient-card {
     box-shadow: initial;
-    
+
     border-image: linear-gradient(90deg, var(--background-color) 0%, var(--contrast) 20%, var(--contrast) 80%, var(--background-color) 100%);
     border-image-slice: 1;
 
