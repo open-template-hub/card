@@ -5,7 +5,7 @@
 </p>
 
 <h1 align="center">
-Open Template Hub - Card v4
+Open Template Hub - Card v5
 </h1>
 
 [![Version](https://img.shields.io/npm/v/@open-template-hub/card?color=CB3837&style=for-the-badge&logo=npm)](https://www.npmjs.com/package/@open-template-hub/card)
